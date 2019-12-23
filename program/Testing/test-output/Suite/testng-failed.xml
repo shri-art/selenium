@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="config" value="webdriver.chrome.driver."/>
+    <classes>
+      <class name="com.training.testng.NewTest">
+        <methods>
+          <include name="openBroswer" invocation-numbers="0"/>
+          <include name="login" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.training.testng.NewTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+  <parameter name="config" value="webdriver.chrome.driver"/>
+    <classes>
+      <class name="com.training.testng.NewTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

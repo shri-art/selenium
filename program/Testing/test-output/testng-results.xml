@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="87033" started-at="2019-12-23T09:41:20 IST" finished-at="2019-12-23T09:42:47 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="87033" started-at="2019-12-23T09:41:20 IST" finished-at="2019-12-23T09:42:47 IST">
+      <class name="com.training.testng.NewTest">
+        <test-method status="PASS" signature="openBroswer(java.lang.String)[pri:0, instance:com.training.testng.NewTest@6f1fba17]" name="openBroswer" duration-ms="10497" started-at="2019-12-23T09:41:20 IST" finished-at="2019-12-23T09:41:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[webdriver.chrome.driver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBroswer -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:1, instance:com.training.testng.NewTest@6f1fba17]" name="login" duration-ms="4554" started-at="2019-12-23T09:41:31 IST" data-provider="dp" finished-at="2019-12-23T09:41:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:1, instance:com.training.testng.NewTest@6f1fba17]" name="login" duration-ms="71910" started-at="2019-12-23T09:41:36 IST" data-provider="dp" finished-at="2019-12-23T09:42:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pratik]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pratik123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.training.testng.NewTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
